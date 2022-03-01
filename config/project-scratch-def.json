@@ -1,7 +1,22 @@
 {
-    "orgName": "jagadeeshchandra Company",
-    "edition": "Developer",
-    "orgPreferences" : {
-        "enabled": ["S1DesktopEnabled"]
+  "orgName": "jagadeeshchandra Company",
+  "edition": "Developer",
+  "features": ["MaxApexCodeSize:10"],
+  "settings" : {
+      "orgPreferenceSettings": {
+        "settings": {
+            "orgPreferenceSettings": {
+                "s1EncryptedStoragePref2": false
+            },
+            "securitySettings": {
+                "sessionSettings": {
+                    "sessionTimeout": "TwelveHours"
+                },
+             "mobileSettings": {
+                "enableS1EncryptedStoragePref2": false
+            }
+        }
     }
+   }
+ }
 }
